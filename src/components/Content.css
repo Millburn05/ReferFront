@@ -1,0 +1,106 @@
+.Confidential{
+  font-size: 14px;
+}
+
+textarea {
+    border: 3px solid #AFDDE5; /*#964734; Rich reddish-brown border */
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .ql-editor {
+    background-color: white;  /* Sets the editor background to white */
+    border-radius: 5px;
+    color: black;  
+    max-width: 1000px;
+    font-size: 16px;
+  }
+  
+  .Name {
+    resize: none;
+    border: 1px;
+    border-radius: 2px;
+  }
+  
+  .dob {
+    resize: none;
+    border: 1px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .CopyReferral {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 10px 20px;
+    background-color: #e74b24; /* Rich reddish-brown background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .CopyReferral:hover {
+    background-color: #be3f22; /* Darker shade when hovering */
+    transform: scale(1.05); /* Slightly enlarge the button when hovered */
+  }
+  
+  .CopyReferral:active {
+    transform: scale(0.95); /* Slightly shrink when clicked */
+  }
+  
+  .CopiedMessage {
+    position: fixed;
+    top: 50%;
+    right: 35%;
+    background-color: #1ddbe9;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .GenerateButton {
+    padding: 10px 20px;
+    margin-top: 8px;
+    background-color: #0FA4AF; /* Vibrant cyan background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .GenerateButton:hover {
+    background-color: #0095a8; /* Slightly darker cyan when hovering */
+    transform: scale(1.05); /* Slightly enlarge the button when hovered */
+  }
+  
+  .GenerateButton:active {
+    transform: scale(0.95); /* Slightly shrink when clicked */
+  }
+  
+  .LoadingQuotes {
+    margin-top: 14px;
+    font-size: 22px;
+    color: #ffffff;
+    animation: fadeIn 6s ease-in-out infinite;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }

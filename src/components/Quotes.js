@@ -1,0 +1,47 @@
+// src/quotes.js
+
+const quotes = [
+    "Dictating expressively...",
+    "Typing like there's no tomorrow...",
+    "Control-C, control-V, Generate Referral...",
+    "UK GPs prescribe around 1.1 billion items annually...",
+    "Smoothing out referral wrinkles...",
+    "The human body contains over 37 trillion cells...",
+    "Translating doctor-speak...",
+    "The average human produces 1-2 liters of saliva daily...",
+    "Translating GP shorthand...",
+    "About 25% of the body's bones are in the feet...",
+    "Summoning the admin fairies...",
+    "Human eyes can distinguish about 10 million different colors...",
+    "Rewriting medical history...",
+    "Skin renews itself approximately every 27 days...",
+    "The brain uses about 20% of the body's total oxygen supply...",
+    "Transcribing brilliance...",
+    "The average person breathes in the equivalent of 13 pints of air every minute...",
+    "Charging dictaphone...",
+    "The human skeleton renews itself completely every 10 years...",
+    "Typing with surgical precision...",
+    "The stomach lining is replaced every 3-4 days...",
+    "These notes are very well written...",
+    "Bones are about five times stronger than steel of the same density...",
+    "I hope you've had a pleasant surgery :)",
+    "The human body has about 60,000 miles of blood vessels...",
+    "Cup of tea while you wait?..",
+    "Fingernails grow about 3.5 millimeters per month...",
+    "Debating with Dr. Google...",
+    "The cornea is the only part of the body without a blood supply; it gets oxygen directly from the air...",
+    "Prescribing patience...",
+    "Arguing with auto-correct...",
+    "Your body has about 2.5 million sweat glands...",
+    "Running on GP time...",
+    "Deep breath in...",
+    "Nerve impulses to and from the brain travel as fast as 250 miles per hour...",
+    "Dictating with passion...",
+    "The small intestine is about 22 feet long...",
+    "Your heart beats about 100,000 times per day...",
+    "Diagnosing referral fatigue...",
+    "By the time you’re an adult, you will have walked around 75,000 miles..."
+  ];
+  
+  export default quotes;
+  

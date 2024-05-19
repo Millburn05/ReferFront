@@ -1,0 +1,68 @@
+/* LandingPage.css */
+
+.LandingPage {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .HeaderImage img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 400px; /* Adjusted size for better fit */
+    height: auto;
+  }
+  
+  .Login-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .HeroSection {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center; /* Center align text */
+  }
+  
+  .HeroText {
+    max-width: 1500px;
+    font-size: 4em;
+    color: #0b737a;
+    margin-bottom: 20px;
+  }
+
+  .HeroText h2 {
+    color: #0FA4AF;
+    font-size: 0.5em;
+  }
+  
+  .WaitListButton {
+    padding: 10px 20px;
+    background-color: #e74b24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .WaitListButton:hover {
+    background-color: #be3f22;
+    transform: scale(1.05);
+  }
+  
+  .WaitListButton:active {
+    transform: scale(0.95);
+  }
+  
+  .VideoContainer {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
